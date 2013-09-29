@@ -5,8 +5,10 @@ echo "Testando projeto WeekIT no GITHUB!";
 $status = "SIM";
 if($status=="SIM") {
 	echo "YES";
-	} else {
+	} else if $status=="NÂO" {
 		echo "NO";
+	} else {
+		echo "Status não definido!!!";  // alterei agora 29/09
+	
 	}
-
 ?>
